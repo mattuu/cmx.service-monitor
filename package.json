@@ -1,12 +1,12 @@
 {
-  "name": "hackathon-starter",
+  "name": "cmx.win-service-monitor",
   "version": "4.3.0",
-  "description": "A boilerplate for Node.js web applications",
+  "description": "Node.js Windows service monitor",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sahat/hackathon-starter.git"
+    "url": "https://github.com/mattuu/cmx.win-service-monitor.git"
   },
-  "author": "Sahat Yalkabov",
+  "author": "mattuu",
   "license": "MIT",
   "scripts": {
     "start": "node app.js",
