@@ -1,7 +1,7 @@
-import * as expess from "express";
+import { Request } from "express";
 
 export class Server {
-	constructor(private server: express) {
+	constructor(private request: Request) {
 		// code...
 		console.log("Constructor!")
 	}

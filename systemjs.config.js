@@ -1,8 +1,15 @@
 System.config({
   map: {
-    app: '/app/',
-    express: 'node_modules/express'
+    app: 'src',
+    express: '/node_modules/express'
+  },
+  packages: {
+  	"app": {
+  		main: 'bootstrap.js',
+  		defaultExtension: 'js'
+  	},
+    "express": {
+      defaultExtension: "js"
+    }
   }
 });
-
-System.import('src/app/server.js');
