@@ -7,11 +7,14 @@ lib-cov
 *.pid
 *.gz
 *.swp
+*.map
 
 pids
 logs
 results
 tmp
+
+src/*.js
 
 #Build
 public/css/main.css
