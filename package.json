@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/mattuu/cmx.win-service-monitor#readme",
   "dependencies": {
+    "@types/express": "^4.0.33",
+    "@types/node": "^6.0.46",
+    "@types/serve-static": "^1.7.31",
     "Buffer": "0.0.0",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",

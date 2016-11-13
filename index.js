@@ -19,7 +19,14 @@ System.config({
       main: "index.js",
       defaultExtension: "js"
     }
+  },
+  meta:{
+    "express": {
+      format: "global"
+    }
   }
 });
 
-System.import('src/bootstrap.js');
+System.import('src/bootstrap.js').then(function(e){
+  console.log(e);
+});

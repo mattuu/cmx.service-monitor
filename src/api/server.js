@@ -1,17 +1,13 @@
-System.register(["express"], function(exports_1, context_1) {
+System.register([], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var express_1;
     var Server;
     return {
-        setters:[
-            function (express_1_1) {
-                express_1 = express_1_1;
-            }],
+        setters:[],
         execute: function() {
             Server = (function () {
                 function Server() {
-                    this.app = new express_1.Application();
+                    this.app = new Application();
                     this.config();
                 }
                 Server.bootstrap = function () {
