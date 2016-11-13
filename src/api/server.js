@@ -7,8 +7,6 @@ System.register([], function(exports_1, context_1) {
         execute: function() {
             Server = (function () {
                 function Server() {
-                    this.app = new Application();
-                    this.config();
                 }
                 Server.bootstrap = function () {
                     return new Server();

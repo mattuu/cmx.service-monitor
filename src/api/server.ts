@@ -1,4 +1,5 @@
-import { Application } from "express";
+import { Application, Express } from "express";
+// import * as express from "express";
 
 export class Server {
 
@@ -6,9 +7,9 @@ export class Server {
 
 	constructor() {
 		// code...
-		this.app = new Application();
+		// this.app = new Express();
 
-		this.config();
+		// this.config();
 		//console.log("Constructor!")
 	}
 

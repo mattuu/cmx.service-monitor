@@ -1,4 +1,4 @@
-import { Server } from "src/api/server/index";
+import { Server } from "./api";
 
 export class Bootstrapper{
 	constructor(){
