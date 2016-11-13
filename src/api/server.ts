@@ -1,7 +1,4 @@
-// import { Request, Express } from "express";
-// import * as bodyParser from "body-parser";
-// import * as express from "express";
-import { Request, Application } from "express";
+import { Application } from "express";
 
 export class Server {
 

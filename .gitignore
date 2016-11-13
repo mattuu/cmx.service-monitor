@@ -8,6 +8,7 @@ lib-cov
 *.gz
 *.swp
 *.map
+*.js.map
 
 pids
 logs
@@ -15,6 +16,7 @@ results
 tmp
 
 src/*.js
+src/*.js.map
 
 #Build
 public/css/main.css
