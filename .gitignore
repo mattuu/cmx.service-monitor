@@ -7,11 +7,16 @@ lib-cov
 *.pid
 *.gz
 *.swp
+*.map
+*.js.map
 
 pids
 logs
 results
 tmp
+
+src/*.js
+src/*.js.map
 
 #Build
 public/css/main.css
@@ -22,6 +27,7 @@ public/css/main.css
 # Dependency directory
 node_modules
 bower_components
+typings
 
 # Editors
 .idea

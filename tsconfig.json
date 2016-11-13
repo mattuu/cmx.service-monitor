@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "system",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "moduleResolution": "node",
+        // "outFile": "../../built/local/tsc.js",
+        "sourceMap": true,
+        "typeRoots": [ "node_modules/@types" ]
+        // "typeRoots" : ["./typings"]
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "node_modules/@types",
+        "**/*.spec.ts"
+    ]
+}

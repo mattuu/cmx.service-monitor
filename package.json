@@ -1,0 +1,32 @@
+{
+  "name": "cmx.win-service-monitor",
+  "version": "1.0.0",
+  "description": "Node.js Windows service monitor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattuu/cmx.win-service-monitor.git"
+  },
+  "author": "mattuu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattuu/cmx.win-service-monitor/issues"
+  },
+  "homepage": "https://github.com/mattuu/cmx.win-service-monitor#readme",
+  "dependencies": {
+    "@types/express": "^4.0.33",
+    "@types/node": "^6.0.46",
+    "@types/serve-static": "^1.7.31",
+    "Buffer": "0.0.0",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "http": "0.0.0",
+    "net": "^1.0.2",
+    "systemjs": "^0.19.41"
+  }
+}
