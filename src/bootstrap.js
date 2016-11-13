@@ -11,7 +11,7 @@ System.register(["src/api/index"], function(exports_1, context_1) {
         execute: function() {
             Bootstrapper = (function () {
                 function Bootstrapper() {
-                    this.server = new index_1.Server(undefined);
+                    this.server = new index_1.Server();
                 }
                 Bootstrapper.Init = function () {
                     console.log("BOOTSTRAPPER INIT()!");

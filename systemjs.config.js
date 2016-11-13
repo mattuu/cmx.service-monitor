@@ -2,11 +2,11 @@ System.config({
   map: {
     app: 'src',
     api: 'src/api'
-    express: '/node_modules/express'
+    express: 'node_modules/express'
   },
   packages: {
     "api": {
-      main: "server.js",
+      main: "index.js",
       defaultExtension: 'js'
     },
   	"app": {

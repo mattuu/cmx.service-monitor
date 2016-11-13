@@ -19,8 +19,11 @@
   },
   "homepage": "https://github.com/mattuu/cmx.win-service-monitor#readme",
   "dependencies": {
+    "Buffer": "0.0.0",
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "http": "0.0.0",
-    "systemjs": "^0.19.40"
+    "net": "^1.0.2",
+    "systemjs": "^0.19.41"
   }
 }

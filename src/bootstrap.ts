@@ -3,7 +3,8 @@ import { Server } from "src/api/index";
 export class Bootstrapper{
 	constructor(){
 	}
-		server: Server = new Server(undefined);
+	 
+	server: Server = new Server();
 
 	public static Init(): void {
 
@@ -11,4 +12,4 @@ export class Bootstrapper{
 	}
 }
 
-Bootstrapper.Init();
+Bootstrapper.Init();	
